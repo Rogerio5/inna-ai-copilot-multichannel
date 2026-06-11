@@ -1,0 +1,14 @@
+{
+  "name": "BankPy AI Copilot - Telegram",
+  "description": "Modelo base de workflow para integraÃ§Ã£o Telegram + FastAPI + BankPy AI Copilot.",
+  "steps": [
+    "Telegram Trigger recebe a mensagem",
+    "HTTP Request envia a pergunta para http://host.docker.internal:8000/ask",
+    "Telegram Send Message retorna a resposta ao usuÃ¡rio"
+  ],
+  "body_example": {
+    "pergunta": "{{$json.message.text}}",
+    "canal": "telegram"
+  }
+}
+

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Tesouro Selic",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "100% da Selic",
+    "aporte_minimo": 30.00,
+    "liquidez": "Diária",
+    "tributacao": "Tabela regressiva de Imposto de Renda",
+    "objetivo": "Reserva de emergência",
+    "descricao": "Título público emitido pelo Tesouro Nacional que acompanha a taxa Selic.",
+    "associado_a": "Reserva de emergência e educação financeira inicial",
+    "observacao_educativa": "Na base, aparece associado à reserva de emergência por possuir baixo risco e liquidez diária."
+  },
+  {
+    "nome": "CDB Liquidez Diária",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "102% do CDI",
+    "aporte_minimo": 100.00,
+    "liquidez": "Diária",
+    "tributacao": "Tabela regressiva de Imposto de Renda",
+    "objetivo": "Formação de reserva e curto prazo",
+    "descricao": "Certificado de Depósito Bancário com possibilidade de resgate diário.",
+    "associado_a": "Liquidez diária, renda fixa e formação de reserva",
+    "observacao_educativa": "Na base, aparece associado à liquidez diária e à formação de reserva de curto prazo."
+  },
+  {
+    "nome": "LCI/LCA",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "95% do CDI",
+    "aporte_minimo": 1000.00,
+    "liquidez": "Após carência",
+    "tributacao": "Isento de Imposto de Renda para pessoa física",
+    "objetivo": "Médio prazo",
+    "descricao": "Títulos ligados aos setores imobiliário e do agronegócio.",
+    "associado_a": "Médio prazo, carência mínima e isenção de Imposto de Renda para pessoa física",
+    "observacao_educativa": "Na base, aparece associado a objetivos de médio prazo por possuir carência antes do resgate."
+  },
+  {
+    "nome": "Fundo Imobiliário",
+    "categoria": "fundo",
+    "risco": "medio",
+    "rentabilidade": "6% a 12% ao ano",
+    "aporte_minimo": 500.00,
+    "liquidez": "Negociação em mercado",
+    "tributacao": "Conforme regras vigentes",
+    "objetivo": "Renda recorrente e diversificação",
+    "descricao": "Fundo que investe em imóveis ou ativos ligados ao mercado imobiliário.",
+    "associado_a": "Diversificação, renda recorrente e exposição ao mercado imobiliário",
+    "observacao_educativa": "Na base, aparece associado à diversificação e exposição ao mercado imobiliário, com risco médio."
+  },
+  {
+    "nome": "Fundo de Ações",
+    "categoria": "fundo",
+    "risco": "alto",
+    "rentabilidade": "Variável",
+    "aporte_minimo": 100.00,
+    "liquidez": "Conforme regulamento",
+    "tributacao": "Conforme regras vigentes",
+    "objetivo": "Crescimento patrimonial de longo prazo",
+    "descricao": "Fundo que investe predominantemente em ações.",
+    "associado_a": "Longo prazo, maior oscilação e exposição ao mercado de ações",
+    "observacao_educativa": "Na base, aparece associado ao longo prazo e à maior exposição ao mercado, com risco alto."
+  }
+]
+

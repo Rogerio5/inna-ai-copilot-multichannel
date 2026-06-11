@@ -1,0 +1,32 @@
+data,descricao,categoria,valor,tipo
+2025-10-01,Salário,receita,5000.00,entrada
+2025-10-02,Aluguel,moradia,1200.00,saida
+2025-10-03,Supermercado,alimentacao,450.00,saida
+2025-10-04,Internet,moradia,120.00,saida
+2025-10-05,Netflix,lazer,55.90,saida
+2025-10-06,Pix recebido freelance,receita,600.00,entrada
+2025-10-07,Farmácia,saude,89.00,saida
+2025-10-08,Padaria,alimentacao,38.50,saida
+2025-10-09,Curso online,educacao,149.90,saida
+2025-10-10,Restaurante,alimentacao,120.00,saida
+2025-10-11,Aplicação Tesouro Selic,investimentos,500.00,saida
+2025-10-12,Uber,transporte,45.00,saida
+2025-10-13,Assinatura Spotify,lazer,21.90,saida
+2025-10-14,Consulta médica,saude,180.00,saida
+2025-10-15,Conta de Luz,moradia,180.00,saida
+2025-10-16,Conta de Água,moradia,85.00,saida
+2025-10-17,Supermercado,alimentacao,390.00,saida
+2025-10-18,Transferência para reserva,investimentos,700.00,saida
+2025-10-19,Manutenção moto,transporte,220.00,saida
+2025-10-20,Academia,saude,99.00,saida
+2025-10-21,Lanche,lazer,42.00,saida
+2025-10-22,Material de estudo,educacao,75.00,saida
+2025-10-23,Pix recebido venda usada,receita,300.00,entrada
+2025-10-24,Plano celular,moradia,65.00,saida
+2025-10-25,Combustível,transporte,250.00,saida
+2025-10-26,Cinema,lazer,80.00,saida
+2025-10-27,Supermercado,alimentacao,280.00,saida
+2025-10-28,CDB reserva emergência,investimentos,400.00,saida
+2025-10-29,Remédio,saude,54.00,saida
+2025-10-30,Delivery,alimentacao,68.00,saida
+2025-10-31,Sobra do mês,receita,250.00,entrada

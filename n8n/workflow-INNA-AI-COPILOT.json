@@ -1,0 +1,59 @@
+{
+  "name": "BankPy AI Copilot - Webhook Base",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "bankpy-ai-copilot",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        240,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/ask",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pergunta",
+              "value": "={{$json.body.pergunta}}"
+            },
+            {
+              "name": "canal",
+              "value": "n8n-webhook"
+            }
+          ]
+        }
+      },
+      "name": "Enviar para FastAPI",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        520,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Enviar para FastAPI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
+

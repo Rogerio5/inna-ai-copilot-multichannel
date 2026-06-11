@@ -1,0 +1,14 @@
+{
+  "name": "BankPy AI Copilot - Gmail",
+  "description": "Modelo base de workflow para integraÃ§Ã£o Gmail + FastAPI + BankPy AI Copilot.",
+  "steps": [
+    "Gmail Trigger detecta novo e-mail",
+    "HTTP Request envia o corpo do e-mail para http://host.docker.internal:8000/ask",
+    "Gmail Send responde automaticamente ao remetente"
+  ],
+  "body_example": {
+    "pergunta": "{{$json.textPlain}}",
+    "canal": "gmail"
+  }
+}
+

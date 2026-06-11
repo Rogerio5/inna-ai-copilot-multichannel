@@ -1,0 +1,90 @@
+[
+  {
+    "pergunta": "O que é CDI?",
+    "resposta": "João, o CDI é uma taxa de referência utilizada em investimentos de renda fixa. Na base, o CDB Liquidez Diária acompanha 102% do CDI e a LCI/LCA acompanha 95% do CDI. Deseja entender a diferença entre CDI e Selic?"
+  },
+  {
+    "pergunta": "O que é Selic?",
+    "resposta": "João, a Selic é a taxa básica de juros da economia. Na base, o Tesouro Selic acompanha 100% da Selic. Deseja comparar CDI e Selic?"
+  },
+  {
+    "pergunta": "O que é Tesouro Selic?",
+    "resposta": "João, o Tesouro Selic é um título público de baixo risco e liquidez diária. O contexto informa que ele acompanha 100% da Selic. Na base, aparece associado à reserva de emergência. Deseja entender o que significa liquidez diária?"
+  },
+  {
+    "pergunta": "O que é CDB Liquidez Diária?",
+    "resposta": "João, o CDB Liquidez Diária é um produto de renda fixa presente na base. O contexto informa que ele acompanha 102% do CDI e possui liquidez diária. Na base, aparece associado à formação de reserva e curto prazo. Deseja entender como o CDI influencia esse produto?"
+  },
+  {
+    "pergunta": "Compare Tesouro Selic e CDB Liquidez Diária.",
+    "resposta": "João, na base, o Tesouro Selic acompanha 100% da Selic e o CDB Liquidez Diária acompanha 102% do CDI. Ambos aparecem com risco baixo e liquidez diária. Deseja entender a diferença entre CDI e Selic?"
+  },
+  {
+    "pergunta": "Compare CDB e LCI/LCA.",
+    "resposta": "João, o CDB Liquidez Diária acompanha 102% do CDI e permite aplicação a partir de R$ 100. A LCI/LCA acompanha 95% do CDI, exige aporte mínimo de R$ 1.000 e possui isenção de Imposto de Renda para pessoa física. Deseja entender o que é liquidez?"
+  },
+  {
+    "pergunta": "O que é liquidez?",
+    "resposta": "João, liquidez representa a facilidade de transformar um investimento em dinheiro disponível. Na base, o CDB Liquidez Diária e o Tesouro Selic aparecem com liquidez diária. Deseja entender a diferença entre liquidez diária e liquidez após carência?"
+  },
+  {
+    "pergunta": "O que é liquidez diária?",
+    "resposta": "João, liquidez diária significa que, na base, o produto aparece com possibilidade de resgate diário. Tesouro Selic e CDB Liquidez Diária aparecem com essa característica. Deseja comparar com liquidez após carência?"
+  },
+  {
+    "pergunta": "O que é liquidez após carência?",
+    "resposta": "João, liquidez após carência significa que existe um prazo mínimo antes do resgate. Na base, a LCI/LCA aparece com liquidez após carência. Deseja comparar com produtos de liquidez diária?"
+  },
+  {
+    "pergunta": "O que é alíquota regressiva?",
+    "resposta": "João, alíquota regressiva é uma regra em que o imposto diminui conforme o tempo da aplicação aumenta. Na base, Tesouro Selic e CDB Liquidez Diária possuem tributação pela tabela regressiva de Imposto de Renda. Deseja entender como prazo e imposto se relacionam?"
+  },
+  {
+    "pergunta": "Como está minha reserva de emergência?",
+    "resposta": "João, sua reserva atual é de R$ 10.000 e a meta registrada é de R$ 15.000. Faltam R$ 5.000 para atingir esse objetivo. A reserva serve para lidar com imprevistos sem comprometer seu orçamento. Deseja calcular um plano de aporte mensal?"
+  },
+  {
+    "pergunta": "Quais são minhas metas financeiras?",
+    "resposta": "João, sua primeira meta é completar a reserva de emergência de R$ 15.000. Atualmente você possui R$ 10.000, faltando R$ 5.000. Também existe a meta de entrada do apartamento de R$ 50.000. Deseja analisar uma dessas metas?"
+  },
+  {
+    "pergunta": "Onde estou gastando mais dinheiro?",
+    "resposta": "João, sua maior despesa é moradia (R$ 1.380). Isso representa 27,6% da sua renda mensal. Moradia concentra a maior parcela dos seus gastos atuais. Deseja ver o detalhamento por categoria?"
+  },
+  {
+    "pergunta": "Mostre um resumo financeiro.",
+    "resposta": "João, suas despesas estão concentradas principalmente em moradia, alimentação e transporte. A categoria moradia representa o maior impacto no orçamento. Acompanhar esses gastos ajuda no planejamento financeiro. Deseja analisar uma categoria específica?"
+  },
+  {
+    "pergunta": "O que é Fundo Imobiliário?",
+    "resposta": "João, Fundo Imobiliário é um produto presente na base com risco médio. Na descrição disponível, consta que ele busca renda recorrente e diversificação. Seu desempenho pode variar conforme o mercado imobiliário. Deseja comparar Fundo Imobiliário e Fundo de Ações?"
+  },
+  {
+    "pergunta": "O que é Fundo de Ações?",
+    "resposta": "João, Fundo de Ações é um produto de risco alto e rentabilidade variável. Na base, aparece associado ao longo prazo e à maior exposição ao mercado de ações. Deseja entender a diferença entre risco médio e risco alto?"
+  },
+  {
+    "pergunta": "Qual é meu perfil de investidor?",
+    "resposta": "João, seu perfil registrado é moderado. Isso indica equilíbrio entre segurança e busca por retorno, conforme os dados disponíveis. Posso explicar as características dos produtos da base sem indicar compra. Deseja comparar essas características?"
+  },
+  {
+    "pergunta": "Qual produto você recomenda?",
+    "resposta": "João, eu não faço recomendação de compra ou venda de investimentos. Posso explicar as características dos produtos presentes na base para apoiar seu aprendizado. Deseja comparar dois produtos?"
+  },
+  {
+    "pergunta": "Qual é o melhor investimento?",
+    "resposta": "João, eu não classifico produtos como melhores ou piores. Como educadora financeira, posso explicar risco, liquidez, tributação, objetivo e rentabilidade dos produtos disponíveis. Deseja comparar essas características?"
+  },
+  {
+    "pergunta": "Quanto rende R$ 1.000 no CDB?",
+    "resposta": "João, não tenho taxa atual, prazo e regras completas para calcular esse rendimento com precisão. O contexto informa apenas que o CDB Liquidez Diária acompanha 102% do CDI. Deseja entender conceitualmente como o CDI influencia esse produto?"
+  },
+  {
+    "pergunta": "Qual a previsão do tempo?",
+    "resposta": "João, não tenho dados sobre previsão do tempo no contexto disponível. Posso ajudar com educação financeira, metas, gastos e conceitos como CDI, Selic e liquidez."
+  },
+  {
+    "pergunta": "Me ajude a organizar meu orçamento.",
+    "resposta": "João, seus maiores gastos estão em moradia, alimentação e transporte. Acompanhar essas categorias ajuda a entender onde o orçamento está mais concentrado. Deseja ver seus gastos por categoria?"
+  }
+]
