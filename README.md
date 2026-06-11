@@ -146,3 +146,121 @@ Usuário → Canais (Web, Telegram, Gmail, Webhook) → n8n → FastAPI → Agen
 ---
 
 ## 📂 Estrutura do Projeto
+
+inna-ai-copilot/
+├── api/
+├── assets/
+├── data/
+├── docs/
+├── rag/
+├── src/
+├── tests/
+└── README.md
+
+---
+
+
+---
+
+## 📊 Dados Utilizados
+- `perfil_usuario.json` → Perfil fictício  
+- `transacoes.csv` → Transações simuladas  
+- `interacoes_inna.csv` → Logs de atendimento  
+- `feedbacks.csv` → Avaliações dos usuários  
+
+---
+
+## 🔐 Segurança e Limitações
+- Não recomenda ativos.  
+- Não promete rentabilidade.  
+- Não acessa dados reais.  
+- Não solicita senhas.  
+- Explica conceitos de forma educativa.  
+
+---
+
+## ⚙️ Configuração
+Usa `.env` para variáveis locais.  
+Exemplo:  
+
+APP_NAME=inna-ai-copilot-multichannel
+API_HOST=127.0.0.1
+API_PORT=8000
+
+---
+
+
+---
+
+## ▶️ Como Rodar
+1. Clonar repositório  
+2. Criar ambiente virtual  
+3. Instalar dependências  
+4. Configurar `.env`  
+5. Rodar FastAPI  
+6. Rodar Streamlit  
+
+---
+
+## 🔄 Integração com n8n
+Workflows:  
+- Telegram Bot  
+- Gmail Bot  
+- Webhook API  
+
+Fluxo: Canal externo → n8n → FastAPI → Agente Inna → n8n → resposta  
+
+---
+
+## 📈 Logs e Analytics
+Registrados em `data/interacoes_inna.csv`  
+Campos: data_hora, canal, usuário, pergunta, resposta, status, tempo_resposta  
+
+---
+
+## 🧪 Testes
+Executar com:  
+
+pytest
+
+---
+
+
+---
+
+## 📚 Documentação Técnica
+Na pasta `docs/`:  
+- Documentação do agente  
+- Base de conhecimento  
+- Prompts  
+- Métricas  
+- Pitch executivo  
+- Arquitetura  
+
+---
+
+## 🚀 Roadmap
+- Deploy em OCI  
+- PostgreSQL para persistência  
+- Memória por usuário  
+- WhatsApp oficial  
+- RAG com base documental  
+- Power BI conectado  
+- Dashboards executivos  
+- Observabilidade e monitoramento  
+
+---
+
+## 👨‍💻 Autor
+- [Rogerio](https://github.com/Rogerio5)
+
+---
+
+## 📜 Licença
+MIT License  
+
+---
+
+## 🏁 Conclusão
+A Inna AI Copilot Multichannel demonstra como aplicar IA Generativa em educação financeira, integrando interface web, API, automação low-code, canais externos, logs e analytics.  
+Mais que um chatbot, é um MVP preparado para evoluir em plataforma cloud com PostgreSQL, RAG, Power BI, WhatsApp e memória persistente.
