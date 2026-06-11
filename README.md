@@ -45,34 +45,72 @@ O projeto combina IA Generativa, Prompt Engineering, FastAPI, Streamlit, n8n, Te
 ---
 
 ## 📖 Descrição
-A Inna AI Copilot Multichannel é um MVP funcional de agente conversacional financeiro.  
-Ela explica conceitos como CDI, Selic, reserva de emergência, organização de gastos, metas financeiras, renda fixa, perfil financeiro e planejamento pessoal.  
-⚠️ **Importante:** A Inna não faz recomendação de investimentos, apenas explica conceitos de forma educativa.
+
+## 📖 Descrição
+
+A **Inna AI Copilot Multichannel** é um **MVP funcional** de agente conversacional financeiro.
+
+Ela foi criada para atuar como uma **educadora financeira inteligente**, explicando temas como:
+
+- CDI  
+- Selic  
+- Reserva de emergência  
+- Organização de gastos  
+- Metas financeiras  
+- Renda fixa  
+- Perfil financeiro  
+- Planejamento financeiro pessoal  
+
+⚠️ **Importante:**  
+A Inna **não faz recomendação de investimentos**.  
+Ela explica conceitos de forma **educativa, segura e acessível**.
 
 ---
 
 ## 🎯 Problema Resolvido
-- Dificuldade das pessoas em entender finanças pessoais.  
-- Chatbots financeiros genéricos, sem contexto ou métricas.  
 
-Este projeto resolve criando uma assistente que:  
-- Explica conceitos com linguagem simples.  
-- Usa dados fictícios de cliente demo.  
-- Atende por múltiplos canais.  
-- Registra logs e gera analytics.  
+## 🎯 Problema Resolvido
+
+Muitas pessoas têm dificuldade para entender conceitos básicos de **finanças pessoais**.  
+
+Além disso, muitos chatbots financeiros são:  
+- Genéricos  
+- Sem contexto  
+- Sem histórico  
+- Sem integração real com canais externos  
+- Sem métricas de atendimento  
+
+Este projeto resolve esse problema criando uma assistente capaz de:  
+- Explicar conceitos financeiros com linguagem simples  
+- Usar dados fictícios de um cliente demo como exemplo  
+- Atender por múltiplos canais
+- Registrar logs das interações  
+- Gerar base para analytics e evolução futura  
 
 ---
 
 ## 💡 Solução
-Fluxo principal:  
-Usuário → Streamlit / Telegram / Gmail / Webhook → n8n → FastAPI → Agente Inna → Gemini ou Mock Mode → Logs e Analytics  
 
-Integra:  
-- Backend Python  
-- IA Generativa  
-- Automação low-code  
-- Canais conversacionais  
-- Logs e métricas  
+A **Inna** conecta diferentes canais de atendimento a uma **API central**.
+
+**Fluxo principal**
+
+Usuário → **Streamlit / Telegram / Gmail / Webhook**  
+→ **n8n**  
+→ **FastAPI** `/ask`  
+→ **Agente Inna**  
+→ **Gemini** ou **Mock Mode**  
+→ **Logs e Analytics**
+
+**O projeto demonstra na prática a integração entre:**
+
+- **Backend Python**  
+- **IA Generativa**  
+- **Automação low-code (n8n)**  
+- **Canais conversacionais (Streamlit, Telegram, Gmail, Webhook)**  
+- **Dados estruturados (CSV, JSON)**  
+- **Logs de atendimento**  
+- **Métricas operacionais e analytics**
 
 ---
 
