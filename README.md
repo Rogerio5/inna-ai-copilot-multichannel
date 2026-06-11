@@ -38,13 +38,11 @@ O projeto combina IA Generativa, Prompt Engineering, FastAPI, Streamlit, n8n, Te
 🧪 Testes  
 📚 Documentação Técnica  
 🚀 Roadmap  
-👨‍💻 Desenvolvedor
+👨‍💻 Desenvolvedor       
 📜 Licença  
 🏁 Conclusão  
 
 ---
-
-## 📖 Descrição
 
 ## 📖 Descrição
 
@@ -66,8 +64,6 @@ A Inna **não faz recomendação de investimentos**.
 Ela explica conceitos de forma **educativa, segura e acessível**.
 
 ---
-
-## 🎯 Problema Resolvido
 
 ## 🎯 Problema Resolvido
 
@@ -212,8 +208,6 @@ A arquitetura atual foi pensada para ser simples, funcional e preparada para evo
 
 --- 
 
----
-
 ## 🧰 Tecnologias
 - **Linguagem:** Python  
 - **Interface:** Streamlit  
@@ -299,24 +293,24 @@ O arquivo .env real não deve ser enviado para o GitHub
 ---
 
 ## ▶️ Como Rodar
-
+```
 1. Clonar o repositório
 git clone https://github.com/Rogerio5/inna-ai-copilot-multichannel.git
 cd inna-ai-copilot-multichannel
 2. Criar ambiente virtual
 python -m venv .venv
 3. Ativar ambiente virtual
-
+```
 Windows PowerShell:
-
+```
 .\.venv\Scripts\Activate.ps1
 4. Instalar dependências
 pip install -r requirements.txt
 5. Configurar .env
 copy .env.example .env
-
+```
 Depois, preencha as variáveis necessárias.
-
+```
 6. Rodar a API FastAPI
 python -m uvicorn api.main:app --reload --port 8000
 
@@ -324,15 +318,15 @@ A API ficará disponível em:
 
 http://127.0.0.1:8000
 7. Rodar o Streamlit
-
+```
 Em outro terminal:
-
+```
 streamlit run src/app.py --server.port 8501
 
 A interface ficará disponível em:
 
 http://localhost:8501
-
+```
 ---
 
 ## 🔄 Integração com n8n
@@ -346,9 +340,9 @@ Fluxo geral:
 Canal externo → n8n → FastAPI /ask → Agente Inna → n8n → resposta ao usuário
 
 Durante o desenvolvimento local, o ngrok pode ser usado para expor o n8n:
-
+```
 ngrok http 5678
-
+```
 ---
 
 ## 📈 Logs e Analytics
