@@ -49,7 +49,7 @@ O projeto combina IA Generativa, Prompt Engineering, FastAPI, Streamlit, n8n, Te
 A **Inna AI Copilot Multichannel** é um **MVP funcional** de agente conversacional financeiro.
 
 Ela foi criada para atuar como uma **educadora financeira inteligente**, explicando temas como:
-
+```
 - CDI  
 - Selic  
 - Reserva de emergência  
@@ -58,7 +58,7 @@ Ela foi criada para atuar como uma **educadora financeira inteligente**, explica
 - Renda fixa  
 - Perfil financeiro  
 - Planejamento financeiro pessoal  
-
+```
 ⚠️ **Importante:**  
 A Inna **não faz recomendação de investimentos**.  
 Ela explica conceitos de forma **educativa, segura e acessível**.
@@ -70,19 +70,21 @@ Ela explica conceitos de forma **educativa, segura e acessível**.
 Muitas pessoas têm dificuldade para entender conceitos básicos de **finanças pessoais**.  
 
 Além disso, muitos chatbots financeiros são:  
+```
 - Genéricos  
 - Sem contexto  
 - Sem histórico  
 - Sem integração real com canais externos  
 - Sem métricas de atendimento  
-
+```
 Este projeto resolve esse problema criando uma assistente capaz de:  
+```
 - Explicar conceitos financeiros com linguagem simples  
 - Usar dados fictícios de um cliente demo como exemplo  
 - Atender por múltiplos canais
 - Registrar logs das interações  
 - Gerar base para analytics e evolução futura  
-
+```
 ---
 
 ## 💡 Solução
@@ -99,7 +101,7 @@ Usuário → **Streamlit / Telegram / Gmail / Webhook**
 → **Logs e Analytics**
 
 **O projeto demonstra na prática a integração entre:**
-
+```
 - **Backend Python**  
 - **IA Generativa**  
 - **Automação low-code (n8n)**  
@@ -107,7 +109,7 @@ Usuário → **Streamlit / Telegram / Gmail / Webhook**
 - **Dados estruturados (CSV, JSON)**  
 - **Logs de atendimento**  
 - **Métricas operacionais e analytics**
-
+```
 ---
 
 ## 🚧 Status
@@ -336,9 +338,9 @@ Workflows:
 - Webhook API  
 
 Fluxo geral:
-
+```
 Canal externo → n8n → FastAPI /ask → Agente Inna → n8n → resposta ao usuário
-
+```
 Durante o desenvolvimento local, o ngrok pode ser usado para expor o n8n:
 ```
 ngrok http 5678
@@ -348,9 +350,9 @@ ngrok http 5678
 ## 📈 Logs e Analytics
 
  As interações são registradas em:
-
+```
 data/interacoes_inna.csv
-
+```
 Campos principais:
 ```
 data_hora
@@ -381,12 +383,10 @@ Base futura para Power BI.
 
 O projeto possui estrutura inicial de testes com Pytest.
 Executar com:  
-
+```
 pytest
-
+```
 ---
-
-## 📚 Documentação Técnica
 
 ### 📚 Documentação Técnica
 
@@ -412,6 +412,7 @@ Uma plataforma multicanal de IA Conversacional com memória, cloud, automação 
 Evoluir o MVP para uma plataforma escalável, com persistência de dados, observabilidade e integração com canais e ferramentas empresariais.
 
 ### Evoluções futuras
+```
 - **Deploy em OCI**  
 - **n8n rodando 24/7**  
 - **PostgreSQL** para logs, usuários, feedbacks e transações  
@@ -423,8 +424,9 @@ Evoluir o MVP para uma plataforma escalável, com persistência de dados, observ
 - **Observabilidade e monitoramento** (logs, métricas, alertas)  
 - **Possível integração com OCI Generative AI**  
 - **Arquitetura escalável** para múltiplos usuários e alta disponibilidade
-
+```
 ### Marcos propostos
+```
 1. Provisionamento e deploy em cloud (OCI).  
 2. Migração de logs para PostgreSQL e modelagem de dados.  
 3. Implementação de memória por usuário e persistência de sessão.  
@@ -433,15 +435,16 @@ Evoluir o MVP para uma plataforma escalável, com persistência de dados, observ
 6. Conexão com Power BI e criação de dashboards iniciais.  
 7. Hardening de segurança, observabilidade e testes de carga.  
 8. Lançamento da plataforma Inna Cloud AI (beta público).
-
+```
 ### Indicadores de sucesso (KPIs)
+```
 - Tempo médio de resposta por canal  
 - Taxa de sucesso nas respostas (feedback positivo)  
 - Número de usuários ativos mensais  
 - Latência média da API  
 - Disponibilidade (uptime) da plataforma  
 - Volume de consultas atendidas por dia
-
+```
 ---
 
 ## 👨‍💻 Desenvolvedor
