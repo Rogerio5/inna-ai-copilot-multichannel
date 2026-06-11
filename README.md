@@ -8,7 +8,7 @@ O projeto combina IA Generativa, Prompt Engineering, FastAPI, Streamlit, n8n, Te
 
  ---
 
-![Capa do Projeto](shap-analysis.png.png)
+![Capa do Projeto](Inna_bot_ruiva.png)
 
 ---
 
