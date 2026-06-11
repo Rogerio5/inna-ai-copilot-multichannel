@@ -227,7 +227,7 @@ A arquitetura atual foi pensada para ser simples, funcional e preparada para evo
 ---
 
 ## 📂 Estrutura do Projeto
-
+```
 inna-ai-copilot/
 ├── api/
 ├── assets/
@@ -237,7 +237,7 @@ inna-ai-copilot/
 ├── src/
 ├── tests/
 └── README.md
-
+```
 ---
 
 ## 📊 Dados Utilizados
