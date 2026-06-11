@@ -114,7 +114,7 @@ Usuário → **Streamlit / Telegram / Gmail / Webhook**
 
 ## 🚧 Status
 ✅ MVP funcional em desenvolvimento avançado  
-
+```
 | Módulo | Status |
 |--------|--------|
 | Web Chat Streamlit | ✅ |
@@ -131,10 +131,11 @@ Usuário → **Streamlit / Telegram / Gmail / Webhook**
 | WhatsApp | 🔜 Roadmap |
 | Power BI | 🔜 Roadmap |
 | Deploy em Cloud | 🔜 Roadmap |
-
+```
 ---
 
 ## 🧩 Funcionalidades
+```
 - 💬 Chat com IA (Streamlit)  
 - 📊 Panorama financeiro (reserva, saldo, perfil, gastos)  
 - 🤖 Gemini API para respostas reais  
@@ -149,7 +150,7 @@ Usuário → **Streamlit / Telegram / Gmail / Webhook**
 - ⭐ Feedbacks dos usuários  
 - 🔐 Segurança contra recomendações financeiras  
 - 🧠 Estrutura inicial de RAG  
-
+```
 ---
 
 ## 🖼️ Demonstração Visual
@@ -253,7 +254,7 @@ inna-ai-copilot/
 A Inna foi projetada para atuar como educadora financeira, não como consultora de investimentos.
 
 A assistente:
-
+```
 Não recomenda compra ou venda de ativos;
 Não promete rentabilidade;
 Não acessa dados bancários reais;
@@ -262,7 +263,7 @@ Não substitui profissional certificado;
 Utiliza dados fictícios para demonstração;
 Explica conceitos financeiros de forma educativa;
 Informa limitações quando não possui contexto suficiente.
-
+```
 ---
 
 ## ⚙️ Configuração
