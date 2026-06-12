@@ -505,8 +505,9 @@ Evoluir o MVP para uma plataforma escalável, com persistência de dados, observ
 ```
 ---
 
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedores
 - [Rogerio](https://github.com/Rogerio5)
+- [Ronaldo](https://github.com/Ronaldo94-GITHUB)
 
 ---
 
