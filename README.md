@@ -26,7 +26,8 @@ O projeto combina IA Generativa, Prompt Engineering, FastAPI, Streamlit, n8n, Te
 🚧 Status  
 🧩 Funcionalidades  
 🖼️ Demonstração Visual  
-🏗️ Arquitetura  
+🏗️ Arquitetura 
+🧠 Arquitetura Conversacional Própria 
 🧰 Tecnologias  
 📂 Estrutura do Projeto  
 📊 Dados Utilizados  
@@ -187,6 +188,22 @@ Workflow responsável por receber mensagens do Telegram, enviar para a API FastA
 
 ---
 
+### Demonstração no Telegram
+
+A Inna também responde pelo Telegram usando n8n, FastAPI e o endpoint `/ask`.
+
+![Demonstração Telegram](assets/demo-telegram.png)
+
+---
+
+### Demonstração no Gmail
+
+A Inna também responde dúvidas financeiras por e-mail usando Gmail Trigger, FastAPI, Gemini API e n8n.
+
+![Demonstração Gmail](assets/demo-gmail.png)
+
+---
+
 ### Fluxo Gmail
 
 Workflow responsável por receber e-mails, enviar a dúvida para a API da Inna e responder automaticamente pelo Gmail.
@@ -209,7 +226,47 @@ A arquitetura atual foi pensada para ser simples, funcional e preparada para evo
 
 ![arquitetura inna aicopilot](assets/arquitetura-inna-ai-copilot.png)
 
---- 
+---
+
+## 🧠 Arquitetura Conversacional Própria
+
+A Inna AI Copilot Multichannel não utiliza Dialogflow CX no MVP inicial.
+
+A decisão foi criar uma **arquitetura própria de IA Conversacional**, utilizando Python, FastAPI, Gemini API, Prompt Engineering, n8n e Webhooks.
+
+Embora o projeto não dependa diretamente do Dialogflow, ele aplica conceitos semelhantes aos usados em plataformas de agentes conversacionais, como:
+
+```text
+- Agente conversacional
+- Intenção do usuário
+- Contexto de sessão
+- Respostas dinâmicas
+- Fallback generativo
+- Webhooks
+- Integração multicanal
+- Regras de segurança
+- Logs de interação
+```
+
+Na prática, os papéis são distribuídos da seguinte forma:
+
+| Conceito de plataforma conversacional | Implementação na Inna                         |
+| ------------------------------------- | --------------------------------------------- |
+| Agente                                | Inna, educadora financeira inteligente        |
+| Intents                               | Regras em Python e Prompt Engineering         |
+| Fluxos conversacionais                | Lógica do `agente.py`                         |
+| Fulfillment                           | Resposta processada pela FastAPI              |
+| Webhook                               | Endpoint `/ask`                               |
+| Fallback generativo                   | Gemini API                                    |
+| Sessão                                | Histórico de conversa e `usuario_id`          |
+| Integrações                           | n8n, Telegram, Gmail, Streamlit e Webhook API |
+| Analytics                             | Logs unificados e análise com Pandas/Plotly   |
+
+Essa abordagem permite demonstrar conhecimento prático em arquitetura de agentes conversacionais, APIs, automação low-code e IA Generativa, mantendo maior controle sobre o código, os custos e a evolução técnica do projeto.
+
+O Dialogflow CX pode ser estudado ou integrado futuramente como uma camada adicional de orquestração conversacional, mas não é obrigatório para validar o MVP atual.
+
+---
 
 ## 🧰 Tecnologias
 - **Linguagem:** Python  

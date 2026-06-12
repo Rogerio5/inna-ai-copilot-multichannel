@@ -4,7 +4,7 @@ from pydantic import BaseModel
 class PerguntaRequest(BaseModel):
     pergunta: str
     usuario: str | None = "usuario_desconhecido"
-    usuario_id: str | None = None
+    usuario_id: str | int | None = None
     canal: str | None = "api"
 
 

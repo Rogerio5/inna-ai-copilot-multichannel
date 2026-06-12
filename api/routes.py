@@ -1,3 +1,5 @@
+### `api/routes.py`
+
 import sys
 import time
 from pathlib import Path
@@ -33,8 +35,14 @@ def perguntar(request: PerguntaRequest):
     inicio = time.time()
 
     canal = request.canal or "api"
-    usuario = getattr(request, "usuario", None) or "usuario_desconhecido"
-    usuario_id = getattr(request, "usuario_id", None)
+    usuario = request.usuario or "usuario_desconhecido"
+
+    usuario_id = (
+        str(request.usuario_id)
+        if request.usuario_id is not None
+        else None
+    )
+
     pergunta_usuario = request.pergunta
 
     try:
@@ -65,3 +73,4 @@ def perguntar(request: PerguntaRequest):
         canal=canal,
         status=status
     )
+

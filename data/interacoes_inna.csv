@@ -20,3 +20,26 @@ Deseja analisar como o planejamento financeiro pode ajudar a alcançar essa meta
 2026-06-10 03:38:55,webchat,admin@inna.ai,admin@inna.ai,Inna,Onde estou gastando mais dinheiro?,"Sua principal categoria de gasto é **moradia**, representando 33.0% da sua renda.
 
 Deseja entender como acompanhar seus gastos mensalmente para otimizar seu orçamento?",success,2.248
+2026-06-11 22:51:35,api,string,usuario_desconhecido,Inna,string,"Olá, João! Como posso te ajudar hoje com sua educação financeira?",success,87.75
+2026-06-11 22:55:19,api,cliente_demo_001,João Silva,Inna,O que é CDI?,"O CDI é uma taxa utilizada como referência para investimentos de renda fixa. Na base de produtos, ele aparece associado ao CDB Liquidez Diária, com uma rentabilidade de 102% do CDI.
+
+Deseja entender a diferença entre CDI e Selic?",success,88.003
+2026-06-11 23:24:55,telegram,8436582969,Rogerio,Inna,O que é CDI?,"Olá, João! O CDI é uma taxa utilizada como referência para investimentos de renda fixa. Você gostaria de entender como essa taxa aparece em algum produto financeiro da sua base?",success,87.592
+2026-06-11 23:25:49,telegram,8436582969,Rogerio,Inna,O que é CDI ?,"Olá! O CDI é a Taxa utilizada como referência para investimentos de renda fixa. Ele aparece associado a produtos como o CDB Liquidez Diária, que na base, consta como 102% do CDI.
+
+Deseja entender a diferença entre CDI e Selic?",success,86.026
+2026-06-12 00:16:24,gmail,Rogerio Sabino <rogeriosabino661@gmail.com>,usuario_email,Inna,O que é CDI ?,"O CDI é uma taxa utilizada como referência para investimentos de renda fixa. Ele aparece associado a produtos como o CDB Liquidez Diária, que na base, consta como 102% do CDI, e a LCI/LCA, que na base aparece com 95% do CDI.
+
+Deseja entender a diferença entre CDI e Selic?",success,86.632
+2026-06-12 01:16:24,gmail,Rogerio Sabino <rogeriosabino661@gmail.com>,usuario_email,Inna,O que é CDI ?,"Olá, João! O CDI é uma taxa utilizada como referência para investimentos de renda fixa.
+
+Deseja entender como o CDI aparece em algum produto financeiro da sua base?",success,86.996
+2026-06-12 01:36:57,gmail,Rogerio Sabino <rogeriosabino661@gmail.com>,usuario_email,Inna,O que é CDI ?,"Olá! O CDI é a taxa utilizada como referência para investimentos de renda fixa. Ele é um indexador importante para diversos produtos financeiros.
+
+Deseja entender a diferença entre CDI e Selic?",success,0.0
+2026-06-12 01:41:25,telegram,8436582969,Rogerio,Inna,O que é CDI ?,"Olá! O CDI é a taxa utilizada como referência para investimentos de renda fixa. Ele é um indexador importante para diversos produtos financeiros.
+
+Deseja entender a diferença entre CDI e Selic?",success,0.001
+2026-06-12 15:40:00,telegram,8436582969,Rogerio,Inna,O que é CDI ?,"Olá! O CDI é a taxa utilizada como referência para investimentos de renda fixa. Ele é um indexador importante para diversos produtos financeiros.
+
+Deseja entender a diferença entre CDI e Selic?",success,0.0

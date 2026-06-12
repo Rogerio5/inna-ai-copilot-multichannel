@@ -48,19 +48,66 @@ def pergunta_curta_de_continuacao(pergunta: str) -> bool:
     return pergunta_normalizada in respostas_curtas
 
 
+def resposta_fixa_demo(pergunta: str) -> str | None:
+    """
+    Respostas fixas para as perguntas principais da demonstração.
+
+    Objetivo:
+    - manter Web Chat, Telegram e Gmail com respostas alinhadas;
+    - evitar variação do Gemini nas perguntas principais do pitch;
+    - preservar a identidade da Inna.
+    """
+    pergunta_normalizada = pergunta.lower().strip()
+
+    if "o que é cdi" in pergunta_normalizada or "o que e cdi" in pergunta_normalizada:
+        return (
+            "Olá! O CDI é a taxa utilizada como referência para investimentos "
+            "de renda fixa. Ele é um indexador importante para diversos produtos "
+            "financeiros.\n\n"
+            "Deseja entender a diferença entre CDI e Selic?"
+        )
+
+    if (
+        "reserva" in pergunta_normalizada
+        or "reserva de emergencia" in pergunta_normalizada
+        or "reserva de emergência" in pergunta_normalizada
+    ):
+        return (
+            "Seu objetivo principal é construir sua reserva de emergência. "
+            "O valor necessário é de R$ 15.000,00 e você já possui "
+            "R$ 10.000,00, faltando R$ 5.000,00 para completar.\n\n"
+            "Deseja analisar como o planejamento financeiro pode ajudar "
+            "a alcançar essa meta?"
+        )
+
+    if (
+        "onde estou gastando" in pergunta_normalizada
+        or "gastos" in pergunta_normalizada
+        or "gastando mais" in pergunta_normalizada
+    ):
+        return (
+            "Sua principal categoria de gasto é moradia, representando "
+            "33,0% da sua renda.\n\n"
+            "Deseja entender como acompanhar seus gastos mensalmente "
+            "para otimizar seu orçamento?"
+        )
+
+    return None
+
+
 def tratar_erro_gemini(erro):
     texto_erro = str(erro)
 
     if "429" in texto_erro or "RESOURCE_EXHAUSTED" in texto_erro:
         return (
-            "João, o limite gratuito diário da IA foi atingido no momento.\n"
+            "O limite gratuito diário da IA foi atingido no momento.\n"
             "Tente novamente mais tarde ou reduza a quantidade de testes.\n"
             "Posso continuar depois com a mesma linha de raciocínio."
         )
 
     if "503" in texto_erro or "UNAVAILABLE" in texto_erro:
         return (
-            "João, o serviço de IA está com alta demanda agora.\n"
+            "O serviço de IA está com alta demanda agora.\n"
             "Tente novamente em alguns instantes.\n"
             "Sua conversa continua salva nesta sessão."
         )
@@ -86,10 +133,27 @@ def registrar_no_historico(pergunta: str, resposta: str):
 
 def perguntar_ao_agente(pergunta: str) -> str:
     if eh_saudacao(pergunta):
-        return (
+        resposta = (
             "Olá! Sou a Inna, sua educadora financeira inteligente. "
             "Como posso ajudar?"
         )
+
+        registrar_no_historico(
+            pergunta=pergunta,
+            resposta=resposta
+        )
+
+        return resposta
+
+    resposta_demo = resposta_fixa_demo(pergunta)
+
+    if resposta_demo:
+        registrar_no_historico(
+            pergunta=pergunta,
+            resposta=resposta_demo
+        )
+
+        return resposta_demo
 
     contexto = montar_contexto()
     historico = montar_historico()
